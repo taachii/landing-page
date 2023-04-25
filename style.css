@@ -5,13 +5,14 @@ body{
 
 header,
 main {
-  padding: 24px;
+  padding: 16px 48px;
 }
 
 header{
   background-color: #43404e;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -25,7 +26,6 @@ header{
   padding: 0;
   text-shadow: 2px 2px 6px #00000070;
   font-size: 1.4rem;
-  font-weight: 500;
   color: #fff;
   align-self: center;
 }
@@ -39,4 +39,36 @@ nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  gap: 32px;
+  flex: 1;
+}
+
+a, .navigation a:visited{
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #00000070;
+}
+
+a.blue:hover, 
+a.blue:active {
+  color: #a8eafb;
+}
+
+a.yellow:hover, 
+a.yellow:active {
+  color: #ffcb7c;
+}
+
+a.red:hover, 
+a.red:active {
+  color: #fe6976;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.05);
 }
