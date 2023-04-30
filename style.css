@@ -1,6 +1,5 @@
 body{
   margin: 0;
-  
   font-family: 'Courier New', Courier, monospace, Wotfard-fallback, sans-serif;
   display: flex;
   flex-direction: column;
@@ -147,6 +146,7 @@ button:nth-of-type(1):hover {
 /* OFFER*/
 
 .offer {
+  background-color: #a8eafb;
   padding: 72px;
 
 }
@@ -183,6 +183,7 @@ button:nth-of-type(1):hover {
 /* ABOUT */
 
 .about {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(168,234,251,1) 100%);
   display: flex;
   flex-direction: column;
 }
@@ -197,12 +198,14 @@ button:nth-of-type(1):hover {
 }
 
 .description {
+ 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .description-text {
+  padding: 16px;
   max-width: 800px;
   text-shadow: 2px 2px 6px #00000060;
 }
