@@ -199,10 +199,12 @@ button:nth-of-type(1):hover {
 .description {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .description-text {
   max-width: 800px;
+  text-shadow: 2px 2px 6px #00000060;
 }
 
 
