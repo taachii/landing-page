@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background-color: #414040;
   font-family: 'Courier New', Courier, monospace, Wotfard-fallback, sans-serif;
   display: flex;
   flex-direction: column;
@@ -89,7 +90,6 @@ a.red:active {
 .intro {
   display: flex;
   padding: 72px;
-  background-color: #414040;
   justify-content: center;
   align-items: center;
   gap: 100px;
