@@ -152,9 +152,8 @@ button:nth-of-type(1):hover {
 }
 
 .offer h2 {
-  text-transform: uppercase;
+  font-size: 1.6rem;
   text-align: center;
-  font-size: 2rem;
   margin: 0 0 48px;
 }
 
@@ -181,5 +180,29 @@ button:nth-of-type(1):hover {
   width: 128px;
 }
 
+/* ABOUT */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.avatar {
+  width: 256px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.description-text {
+  max-width: 800px;
+}
 
 
