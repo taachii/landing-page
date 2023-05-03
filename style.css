@@ -201,7 +201,6 @@ button:nth-of-type(1):hover {
 }
 
 .description {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
