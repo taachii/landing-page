@@ -120,7 +120,7 @@ a.red:active {
   color: #d4d1d1;
 }
 
-.intro-left button {
+button {
   font-family: inherit;
   font-weight: bold;
   font-size: 1.3rem;
@@ -138,7 +138,7 @@ a.red:active {
   transform: scale(1);
 }
 
-button:nth-of-type(1):hover {
+button:hover {
  border-color: #ffcb7c;
  cursor: pointer;
 }
@@ -182,9 +182,11 @@ button:nth-of-type(1):hover {
 /* ABOUT */
 
 .about {
+  padding: 72px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 40vh;
 }
 
 .about h2 {
@@ -204,10 +206,46 @@ button:nth-of-type(1):hover {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+
 }
 
 .description img {
   height: 400px;
+}
+
+/* CTA */
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ffcb7c;
+  padding: 36px;
+  margin: 72px auto;
+  margin-bottom: 50px;
+  width: 40vw;
+  max-width: 800px;
+  border: 3px solid #323131;
+  border-radius: 20px;
+}
+
+.cta-left {
+  font-size: 1.1rem;
+  width: 60%;
+}
+
+.cta button:hover {
+  border-color: #323131;
+}
+
+/* FOOTER */
+
+footer {
+  display: block;
+  text-align: center;
+  margin-top: 72px;
+  padding: 16px;
+  color: white;
 }
 
 
