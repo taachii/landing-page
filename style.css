@@ -172,6 +172,8 @@ button:nth-of-type(1):hover {
 
 .pictures figure {
   font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px white;
   flex: 1;
 }
 
@@ -183,14 +185,13 @@ button:nth-of-type(1):hover {
 /* ABOUT */
 
 .about {
-  
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .about h2 {
   font-size: 1.6rem;
-  text-align: center;
 }
 
 .avatar {
@@ -198,7 +199,7 @@ button:nth-of-type(1):hover {
 }
 
 .description {
- 
+  max-width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
